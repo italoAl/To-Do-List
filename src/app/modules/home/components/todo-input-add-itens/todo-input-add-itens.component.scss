@@ -1,0 +1,47 @@
+@import 'src/app/dist/scss/variables.scss';
+
+:host {
+    display: flex;
+    justify-content: center;
+    margin-to:host {
+        display: flex;
+        justify-content: center;
+        margin-top: -20px;
+      
+        input{
+          width: 80%;
+      
+          border: none;
+          background: $tertiary-background-color;
+      
+          font-size: 16px;
+          color: $secondary-text-color;
+          text-align: center;
+      
+          padding: 10px;
+          box-sizing: border-box;
+      
+          &::placeholder{
+            color: $secondary-text-color;
+          }
+        }
+      }
+  
+    input{
+      width: 80%;
+  
+      border: none;
+      background: $primary-background-color;
+  
+      font-size: 16px;
+      color: $secondary-text-color;
+      text-align: center;
+  
+      padding: 10px;
+      box-sizing: border-box;
+  
+      &::placeholder{
+        color: $tertiary-text-color;
+      }
+    }
+  }
